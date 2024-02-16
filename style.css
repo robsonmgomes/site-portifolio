@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+/* Carregando fonte do google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap'); 
 
+/* Reset da página */
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +9,7 @@
   box-sizing: border-box;
 }
 
+/* Definindo fonte e altura da tela do projeto */
 body {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   height: 180vh;
@@ -38,5 +41,4 @@ body {
   text-decoration: underline;
   color: #fff;
 }
-
 /* Fim Header */
