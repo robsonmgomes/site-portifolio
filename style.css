@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  height: 180vh;
+}
+
+/* Início Header */
+.nav {
+  background-color: #181818;
+  height: 80px;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 28px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #ddd;
+  padding: 20px;
+}
+
+.nav-list a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+/* Fim Header */
