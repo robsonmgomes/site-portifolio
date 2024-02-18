@@ -12,14 +12,13 @@
 /* Definindo fonte e altura da tela do projeto */
 body {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  height: 180vh;
 }
 
 /* Início Header */
 .nav {
   background-color: #181818;
   height: 80px;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
 }
@@ -33,6 +32,7 @@ body {
 
 .nav-list a {
   text-decoration: none;
+  font-size: 18px;
   color: #ddd;
   padding: 20px;
 }
@@ -42,3 +42,43 @@ body {
   color: #fff;
 }
 /* Fim Header */
+
+/* Início main */
+.main {
+  background-image: url(/images/programador.png);
+  background-size: cover;
+  width: 100%;  
+  background-color: #000;
+  height: calc(100vh - 80px);  
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+
+.main h1 {
+  color: #ffffff;
+  font-size: 54px;
+}
+
+.main p {
+  color: #1e96fc;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+
+.call-to-action {
+  cursor: pointer;
+  background-color: #fff;
+  border: 0;
+  padding: 14px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.main a {
+  text-decoration: none;
+  color: #181818;
+}
+/* Fim main */
