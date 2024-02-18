@@ -35,19 +35,19 @@ html {
   display: flex;
   align-items: center;
   list-style: none;
-  margin-right: 28px;
+  margin-right: 28px;  
 }
 
 .nav-list a {
   text-decoration: none;
   font-size: 18px;
   color: #d5d2d2;
-  padding: 20px;
+  padding: 20px;  
 }
 
 .nav-list a:hover {
   text-decoration: underline;
-  color: #ffffff;
+  color: #ffffff;  
 }
 /* Fim Header */
 
@@ -193,6 +193,12 @@ html {
   font-size: 18px;
   color: #ffffff;
   margin-top: 17px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.action:hover {
+  background-color: #000000;
 }
 /* Fim projetos */
 
