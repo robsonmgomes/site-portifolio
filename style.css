@@ -45,7 +45,7 @@ body {
 
 /* Início main */
 .main {
-  background-image: url(/images/programador.png);
+  background-image: url(./images/programador.png);
   background-size: cover;
   width: 100%;  
   background-color: #000;
