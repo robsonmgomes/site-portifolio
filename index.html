@@ -7,30 +7,92 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
     <!-- Início header -->
     <nav class="nav">
       <ul class="nav-list">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Projetos</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
       </ul>
     </nav>
     <!-- Fim Header -->
 
     <!-- Início main -->
-    <section class="main">
+    <section class="main" id="home">
       <div>
-        <h1>Olá, <br>Seja bem vindo</h1>
+        <h1>Olá, <br />Seja bem vindo</h1>
         <p>Crie soluções para seu negócio</p>
         <a href="#">
-          <button class="call-to-action">
-            Veja meus projetos
-          </button>
+          <button class="call-to-action">Veja meus projetos</button>
         </a>
       </div>
     </section>
-    <!-- Fim main -->    
-    
+    <!-- Fim main -->
+
+    <!-- Início sobre -->
+    <section class="about" id="sobre">
+      <div>
+        <h2>Sobre</h2>
+        <p>
+          Bem-vindo à minha página! Meu nome é
+          <a href="https://github.com/robsonmgomes" target="_blank"
+            >Robson Medeiros</a
+          >. Sou um entusiasta da tecnologia, apaixonado pela arte da
+          programação. Desde jovem, sou fascinado pelo poder da computação e
+          pela capacidade de transformar linhas de código em soluções inovadoras
+          e funcionais.
+        </p>
+        <br />
+
+        <p>
+          Com uma formação em Front-End e anos de experiência prática,
+          desenvolvi habilidades sólidas em diversas linguagens como HTML, CSS,
+          JavaScript, PHP e Phyton. Minha jornada profissional me levou a
+          projetos desafiadores, nos quais pude aplicar meus conhecimentos em
+          desenvolvimento web, mobile, dentre outros.
+        </p>
+        <br />
+
+        <p>
+          Além da programação, sou um entusiasta da aprendizagem contínua e
+          estou sempre em busca de novos desafios para aprimorar minhas
+          habilidades e conhecimentos. Esta página é um reflexo do meu trabalho
+          e das minhas paixões, e estou empolgado para compartilhar com você um
+          pouco do que sei e do que posso oferecer.
+        </p>
+      </div>
+      <img src="./images/foto-pc.png" alt="Foto de um programador" />
+    </section>
+    <!-- Fim sobre -->
+
+    <!-- Início projetos -->
+    <section class="projects" id="projetos">
+      <h2>Projetos</h2>
+      <p>Conheça meus projetos</p>
+
+      <div class="project-list">
+        <img src="./images/projeto1.png" alt="Foto do projeto 1" />
+        <img src="./images/projeto2.png" alt="Foto do projeto 2" />
+        <img src="./images/projeto3.png" alt="Foto do projeto 3" />
+      </div>
+
+      <div class="project-list">
+        <img src="./images/projeto3.png" alt="Foto do projeto 3" />
+        <img src="./images/projeto1.png" alt="Foto do projeto 1" />
+        <img src="./images/projeto2.png" alt="Foto do projeto 2" />
+      </div>
+
+      <button class="action">Faça um orçamento</button>
+    </section>
+    <!-- Fim projetos -->
+
+    <!-- Início rodapé -->
+    <footer>
+      <p>
+        <a href="#"><b>Robson Medeiros</b></a>
+      </p> 
+        <p><span>&#169;</span>Todos os direitos reservados</p>
+    </footer>
+    <!-- Fim rodapé -->
   </body>
 </html>

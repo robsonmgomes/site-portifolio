@@ -1,5 +1,5 @@
 /* Carregando fonte do google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap'); 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
 /* Reset da página */
 * {
@@ -11,7 +11,12 @@
 
 /* Definindo fonte e altura da tela do projeto */
 body {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+/* Definindo suavidade para os links */
+html {
+  scroll-behavior: smooth;
 }
 
 /* Início Header */
@@ -21,6 +26,9 @@ body {
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  position: sticky;
+  top: 0;
+  z-index: 9;
 }
 
 .nav-list {
@@ -33,13 +41,13 @@ body {
 .nav-list a {
   text-decoration: none;
   font-size: 18px;
-  color: #ddd;
+  color: #d5d2d2;
   padding: 20px;
 }
 
 .nav-list a:hover {
   text-decoration: underline;
-  color: #fff;
+  color: #ffffff;
 }
 /* Fim Header */
 
@@ -47,9 +55,9 @@ body {
 .main {
   background-image: url(./images/programador.png);
   background-size: cover;
-  width: 100%;  
+  width: 100%;
   background-color: #000;
-  height: calc(100vh - 80px);  
+  height: calc(100vh - 80px);
   display: flex;
   align-items: center;
   padding-left: 10%;
@@ -69,12 +77,18 @@ body {
 
 .call-to-action {
   cursor: pointer;
-  background-color: #fff;
+  background-color: #d5d2d2;
   border: 0;
   padding: 14px;
   border-radius: 5px;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: bold;
+  transition: 0.4s;
+}
+
+.call-to-action:hover {
+  transform: scale(1.1);
+  background-color: #ffffff;
 }
 
 .main a {
@@ -82,3 +96,128 @@ body {
   color: #181818;
 }
 /* Fim main */
+
+/* Início about */
+.about {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 80px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about div {
+  max-width: 50%;
+  padding-right: 40px;
+}
+
+.about img {
+  max-width: 450px;
+  border-radius: 5px;
+}
+
+.about div h2 {
+  font-size: 32px;
+  margin-bottom: 14px;
+}
+
+.about div p {
+  font-size: 17px;
+  text-align: justify;
+  text-indent: 30px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.about div p a {
+  text-decoration: none;
+  color: #3c58a0;
+}
+
+.about div p a:hover {
+  text-decoration: underline;
+  color: #2a60e9;
+}
+/* Fim about */
+
+/* Início projetos */
+
+.projects {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 0;
+  margin-bottom: -40px;
+}
+
+.projects h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.projects p {
+  font-size: 18px;
+}
+
+.project-list {
+  width: 100%;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projects img {
+  width: 20%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  margin-top: 2%;
+  opacity: 0.8;
+  transition: 0.4s ease;
+}
+
+.projects img:hover {
+  opacity: 1;
+}
+
+.action {
+  background-color: #181818;
+  border: 0;
+  padding: 12px 28px;
+  border-radius: 4px;
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 17px;
+}
+/* Fim projetos */
+
+/* Início rodapé */
+footer {
+  width: 100%;
+  background-color: #181818;
+  padding: 35px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+footer a {
+  text-decoration: none;
+  color: #d5d2d2;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+footer p {
+  margin-left: 15px;  
+}
+/* Fim rodapé */
