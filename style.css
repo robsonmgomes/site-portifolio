@@ -271,6 +271,7 @@ footer p {
   /* Início projetos */
   .projects img {
     width: 60%;
+    margin: 15px;
   }
   /* Final projetos */
 
