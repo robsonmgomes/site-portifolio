@@ -227,3 +227,40 @@ footer p {
   margin-left: 15px;  
 }
 /* Fim rodapé */
+
+/* Responsividade */
+
+@media (max-width: 1058px) {
+  /* Início main */
+  .main h1 {
+    font-size: 45px;
+  }
+
+  .main p { 
+    font-size: 18px;
+  }
+
+  .main {
+    background-size: cover;
+  }
+  /* Fim main */
+
+  /* Início sobre */
+  .about {
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+
+  .about img {
+    display: none;
+    padding: 70px 0px 0px 0px;
+  }
+
+  .about div {
+    max-width: 90%;
+
+  }
+}
