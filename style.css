@@ -231,15 +231,20 @@ footer p {
 /* Responsividade */
 
 @media (max-width: 1058px) {
+  
+  /* Início nav */
+  .nav-list  {
+    margin: auto;
+  }
+  /* Fim nav */
+
   /* Início main */
   .main h1 {
     font-size: 45px;
   }
-
   .main p { 
     font-size: 18px;
   }
-
   .main {
     background-size: cover;
   }
@@ -253,15 +258,33 @@ footer p {
     padding-right: 0px;
     padding-bottom: 0px;
   }
-
   .about img {
     display: none;
     padding: 70px 0px 0px 0px;
   }
-
   .about div {
     max-width: 90%;
     padding: 0px 2px;
-
   }
+  /* Final sobre */
+
+  /* Início projetos */
+  .projects img {
+    width: 60%;
+  }
+  /* Final projetos */
+
+  /* Inicio rodapé */
+  footer {
+    flex-direction: column;
+  }
+  footer a {
+    font-size: 20px;
+  }
+  footer p {
+    font-size: 13px;
+    padding: 3px;
+    margin: 0;
+  }
+  /* Fim rodapé */
 }
